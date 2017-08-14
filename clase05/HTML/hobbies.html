@@ -4,18 +4,54 @@
     <meta charset="utf-8">
     <title>Hobbies - Martín Ackerman</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
   </head>
   <body>
-    <h1 id="h1Hobbies">Mis pasatiempos</h1>
-    <p id="hobbies">
-      <img src="images/pasatiempos-futbol.jpg" alt="futbol" width="360">
-      <br>
-      <img src="images/pasatiempos-gimnasio.jpg" alt="gimnasio" width="360">
-      <br>
-      <img src="images/pasatiempos-netflix.jpg" alt="netflix" width="360">
-      <br>
-      <a href="index.html">Volver</a>
-    </p>
+    <div class="contenedorBody">
+      <header>
+        <h1 id="h1Hobbies">Mis pasatiempos</h1>
+      </header>
+      <section id="sectionHobbies">
+        <div class="contenedor enlaces">
+          <a href="index.html">Volver</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
 
+        <div class="contenedor multimedia">
+          <div class="hobbie futbol">
+            <img src="images/pasatiempos-futbol.jpg" alt="futbol" width="360">
+            <h2 class="h2Hobbies">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+          </div>
+          <div class="hobbie gimnasio">
+            <img src="images/pasatiempos-gimnasio.jpg" alt="gimnasio" width="360">
+            <h2 class="h2Hobbies">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+          </div>
+          <div class="hobbie netflix">
+            <img src="images/pasatiempos-netflix.jpg" alt="netflix" width="360">
+            <h2 class="h2Hobbies">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+          </div>
+
+          <div class="video">
+            <h2>Video en HTML5</h2>
+            <video width="640" controls poster="images/pasatiempos-futbol.jpg">
+              <source src="videos/videoEjemplo.webm" type="video/webm">
+              <source src="videos/videogato.mp4" type="video/mp4">
+              [ fallback text ]
+            </video>
+          </div>
+
+          <div class="audio">
+            <h2>Audio en HTML5</h2>
+            <audio width="480" controls>
+              <source src="audios/audioEjemplo.mp3" type="audio/mp3">
+              [ fallback text ]
+            </audio>
+          </div>
+        </div>
+      </section>
+      <footer id="footerHobbies">
+        <h2>Todos los derechos reservados</h2>
+      </footer>
+    </div>
   </body>
 </html>

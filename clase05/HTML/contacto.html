@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contacto - Martín Ackerman</title>
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <div class="contenedorBody">
+      <h1>Formulario de consultas</h1>
+      <form class="formulario" action="gracias.html" method="get">
+        <label for="name">Nombre y apellido:</label>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+        <label for="mail">Correo electrónico:</label>
+        <input type="email" name="mail" id="mail" placeholder="correo@ejemplo.com" required>
+        <br><br>
+        <label for="asunto">Asunto:</label>
+        <select name="asunto">
+          <option value="CN">Consulta</option>
+          <option value="CR">Crítica</option>
+          <option value="SG">Sugerencia</option>
+          <option value="OT">Otro</option>
+        </select>
+        <br><br>
+        <label for="genero">Género:</label>
+        <input type="radio" name="genero" value="Masculino">Masculino
+        <input type="radio" name="genero" value="Femenino">Femenino
+        <input type="radio" name="genero" value="No responde">No responde
+        <br><br>
+        <label for="pasatiempos">Pasatiempos:</label>
+        <input type="checkbox" name="pasatimepos" value="1"> Deportes
+        <input type="checkbox" name="pasatiempos" value="2"> Literatura
+        <input type="checkbox" name="pasatiempos" value="3"> Cine
+        <input type="checkbox" name="pasatiempos" value="4"> Comidas
+        <input type="checkbox" name="pasatiempos" value="5"> Arte
+        <br><br>
+        <label for="comentarios">Comentarios:</label>
+        <br>
+        <textarea name="comentarios" rows="8" cols="80" placeholder="Escribí tus comentarios acá" required></textarea>
+        <br><br>
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="reset" value="Reset">
+      </form>
+      <br><br>
+      <a href="hobbies.html">Volver a hobbies</a>
+      <br>
+      <a href="index.html">Volver al inicio</a>
+    </div>
+  </body>
+</html>

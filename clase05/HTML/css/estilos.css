@@ -1,20 +1,55 @@
 body{
-  background-color: #00796b;
+  background-image: url(../images/fondo-dark-wood.jpg);
+  background-repeat: repeat;
+  background-attachment:fixed;
   font-family: 'Catamaran', sans-serif;
   font-size: 16px;
   font-weight:normal;
   text-align: justify;
-  line-height: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+.contenedorBody{
+  overflow: hidden;
+  width: 960px;
+  margin-left: 14%;
+  margin-right: 14%;
+}
+
+.principio{
+  margin-bottom: 1%;
+  margin-top: -7%;
+  width: 100%;
+  background-color: rgba(0, 102, 255, 0.7);
+}
+
+.menuEnlaces{
+  color: white;
+}
+
+.menuEnlacesFinal{
+  color: white;
+}
+
+.separadorMenu{
+  margin: 10px;
+  font-size: 25px;
+  position: relative;
+  top: 3px;
+}
+
+.final{
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 h1{
-  color: white;
   font-style:italic;
-  text-align: center;
 }
 
 h2{
-  background-color: white;
   text-decoration: underline;
   font-weight: normal;
 }
@@ -27,57 +62,135 @@ p1{
   text-align: center;
 }
 
-#redesSociales{
+.redesSociales{
   text-align: center;
+  overflow: hidden;
+  width: 100%;
+  margin-left: 20%;
+  /*border: white 3px solid;*/
 }
 
-#hobbies{
-  text-align: center;
+.redesSociales #logoFb{
+  float: left;
+  width: 20%;
+  margin-right: 2%;
+}
+
+.redesSociales #logoTw{
+  float: left;
+  width: 20%;
+  margin-right: 2%;
+}
+
+.redesSociales #logoIn{
+  float: left;
+  width: 20%;
 }
 
 #header{
-  background-color: grey;
-  border: yellow 3px solid;
+  background-color: rgba(0, 102, 255, 0.7);
+  font-size: 25px;
+  line-height: 25px;
 }
 
 #martinAckerman{
-  color: yellow;
+  color: #6bf3ff;
 }
 
 #footer{
-  background-color: grey;
-  border: yellow 3px solid;
-  padding: 30px;
-  text-align: center;
+  background-color: rgba(0, 102, 255, 0.7);
   font-size: 20px;
+  line-height: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-div.contenido{
+#millon{
+  color: #6bf3ff;
+}
+
+.principal{
+  overflow: hidden;
+}
+
+.columna1{
+  width: 70%;
   float: left;
-  width: 50%;
 }
 
-div.contenido1{
-  border: yellow 3px solid;
-  background-color: grey;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.columna2 img{
+  width: 100%;
 }
 
-div.contenido2{
-  border: yellow 3px solid;
-  background-color: grey;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.columna2{
+  width: 29%;
+  float: right;
 }
 
-div.contenido3{
-  border: yellow 3px solid;
-  background-color: grey;
-  margin-top: 10px;
+.contenido1{
+  border-top: white 2px solid;
   margin-bottom: 10px;
+  padding: 15px;
+}
+
+.contenido2{
+  border-top: white 2px solid;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.contenido3{
+  border-top: white 2px solid;
+  border-bottom: solid 2px white;
+  margin-bottom: 10px;
+  padding: 15px;
 }
 
 section{
   overflow: hidden;
+}
+
+.infoPersonal{
+  /*border: white 3px solid;*/
+}
+
+#sectionHobbies{
+  overflow: hidden;
+  color: white;
+}
+
+.enlaces{
+  background-color: none;
+  width: 300px;
+  float: left;
+}
+
+.multimedia{
+  background-color: none;
+  width: 630px;
+  float: right;
+}
+
+.hobbie{
+  float: left;
+  width: 100%;
+}
+
+.futbol{
+}
+
+.gimnasio{
+}
+
+.netflix{
+}
+
+.h2Hobbies{
+  text-decoration: none;
+  color: white;
+}
+
+#footerHobbies{
+  background-color: none;
+  float: right;
 }
