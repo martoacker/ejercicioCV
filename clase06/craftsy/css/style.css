@@ -1,0 +1,50 @@
+body{
+  background-image: url(../images/bg-2.png);
+  background-repeat: repeat;
+  background-attachment:fixed;
+}
+
+.contenedorPrincipal{
+  box-sizing: border-box;
+  width: 960px;
+  margin-left: 14%;
+  margin-top: 5%;
+  position: relative;
+}
+
+#header{
+  box-sizing: border-box;
+  width: 100%;
+  background-color: red;
+  padding-left: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#logoCraftsy{
+  position: absolute;
+  top: -30px;
+  left: -37px;
+}
+
+.menu{
+  margin: 20px;
+}
+
+section{
+  width: 100%;
+  background-color: white;
+  margin-top: 8%;
+}
+
+.articulos3{
+  overflow: hidden;
+}
+
+.articulo img{
+  float: left;
+  width: 300px;
+  margin: 10px;
+  position: relative;
+}
